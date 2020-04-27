@@ -1,0 +1,98 @@
+.titulo {
+	color: white;
+	font-family: 'Arial';
+	text-align: left;
+	background: #000000;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+/*Login*/
+
+.login {
+	font-family: 'Arial';
+	transition: all .5s;
+	color: lightsalmon;
+	text-decoration: none;
+	margin: 30%;
+	position: relative;
+	bottom: 65px;
+}
+
+.login:hover {
+	color: lightcoral;
+	transition: all .5s;
+}
+
+/*Registro*/
+
+.registro {
+	font-family: 'Arial';
+	transition: all .5s;
+	color: lightpink;
+	text-decoration: none;
+	margin-left: 30%;
+	position: relative;
+	bottom: 60px;
+}
+
+.registro:hover {
+	color: lightcoral;
+	transition: all .5s;
+}
+
+
+/*Regresar*/
+
+.btn {
+	height: 45px;
+	width: 70px;
+	border: 0;
+	border-radius: 10px;
+	position: relative;
+	bottom: 105px;
+	margin-left: 90%;
+}
+
+/*Imagenes*/
+
+img {
+	cursor: pointer;
+}
+
+/*Precios*/
+/*Precios 1*/
+
+.precion1 {
+	text-decoration: none;
+	color: blue;
+	transition: all .5s;
+	margin-left: 10.9%;
+	position: relative;
+	bottom: 90px;
+}
+
+.precion1:hover {
+	color: lightcoral;
+	transition: all .5s;
+}
+
+/*Precios 2*/
+
+.precion2 {
+	text-decoration: none;
+	color: blue;
+	transition: all .5s;
+	margin-left: 10.9%;
+	position: relative;
+	bottom: 90px;
+}
+
+.precion2:hover {
+	color: lightcoral;
+	transition: all .5s;
+}

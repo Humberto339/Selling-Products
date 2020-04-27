@@ -1,0 +1,116 @@
+.titulo {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    background: #000000;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*Login*/
+
+.login {
+    font-family: Arial, Helvetica, sans-serif;
+    transition: all .5s;
+    color: lightsalmon;
+    text-decoration: none;
+    margin-left: 30%;
+    position: relative;
+    bottom: 65px;
+}
+
+.login:hover {
+    color:  lightcoral;
+    transition: all .5s;
+}
+
+/*Registro*/
+
+.singn {
+    font-family: Arial, Helvetica, sans-serif;
+    transition: all .5s;
+    color: lightpink;
+    text-decoration: none;
+    margin-left: 30%;
+    position: relative;
+    bottom: 60px;
+}
+
+.singn:hover {
+    transition: all .5s;
+    color: lightcoral;
+}
+
+/*About*/
+
+.btn {
+    height: 45px;
+    width: 70px;
+    border: 0;
+    border-radius: 10px;
+    position: relative;
+    bottom: 105px;
+    margin-left: 90%;
+}
+
+.btn:hover {
+    transform: scale(0.95);
+    background: lightcoral;
+    cursor: pointer;
+}
+
+/*Recomendaciones*/
+
+.reco {
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+    font-size: 25px;
+    border: 0;
+    background:white;
+    position: relative;
+    left: 400px;
+    cursor: pointer;
+}
+
+.reco:hover {
+    cursor: pointer;
+}
+
+/*Deporte*/
+
+.deporte {
+    position: relative;
+    left: 150px;
+    height: 45px;
+    width: 70px;
+    border-radius: 7px;
+    border: 0;
+    font-size: 16px;
+}
+
+.deporte:hover {
+    cursor: pointer;
+    background: lightsalmon;
+}
+
+/*Ropa*/
+
+.ropa {
+    position: relative;
+    left: 350px;
+    bottom: 42px;
+    height: 45px;
+    width: 70px;
+    border-radius: 7px;
+    border: 0;
+    font-size: 16px;
+}
+
+.ropa:hover {
+    cursor: pointer;
+    background: lightsalmon;
+}

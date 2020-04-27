@@ -1,0 +1,89 @@
+/*Titulos*/
+
+.titulo {
+    font-family: Arial, Helvetica, sans-serif;
+    background: black;
+    color: white;
+}
+
+.cursiva {
+    color: black;
+    height: 45px;
+    width: 70px;
+    border: 0;
+    border-radius: 10px;
+    cursor: pointer;
+    position: relative;
+    bottom: 20px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 90%;
+    transition: all .5s;
+}
+
+.cursiva:hover {
+    background: lightcoral;
+    transition: all .5s;
+}
+
+/*Cuerpo*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*Login*/
+
+.login {
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    bottom: 70px;
+    margin-left: 30%;
+    transition: all .5s;
+    font-family: Arial, Helvetica, sans-serif;
+    color: lightsalmon;
+    text-decoration: none;
+}
+
+.login:hover {
+    color: lightcoral;
+    transition: all .5s;
+}
+
+/*Registro*/
+
+.registro {
+    font-family: Arial, Helvetica, sans-serif;
+    transition: all .5s;
+    color: lightpink;
+    text-decoration: none;
+    margin-left: 30%;
+    position: relative;
+    bottom: 60px;
+}
+
+.registro:hover {
+    transition: all .5s;
+    color: lightcoral;
+}
+
+/*Cuadro*/
+
+.contenedor {
+    background-color: lightblue;
+    color: black;
+    padding: 25px;
+}
+
+.creadores {
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.n2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 25px;
+}

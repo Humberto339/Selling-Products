@@ -1,0 +1,83 @@
+/*Titulo*/
+
+.titulo {
+    background: #000000;
+    color: white;
+}
+
+/*Body*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*Login*/
+
+.login {
+    font-family: Arial, Helvetica, sans-serif;    
+    transform: all .5s;
+    color: lightsalmon;
+    text-decoration: none;
+    margin-left: 30%;
+    position: relative;
+    bottom: 65px;
+}
+
+.login:hover {
+    color: lightcoral;
+    transition: all .5s;
+}
+
+/*Registro*/
+
+.registro {
+    font-family: Arial, Helvetica, sans-serif;
+    transition: all .5s;
+    color: lightpink;
+    text-decoration: none;
+    margin-left: 30%;
+    position: relative;
+    bottom: 60px;
+}
+
+.registro:hover {
+    transition: all .5s;
+    color: lightcoral;
+}
+
+/*Boton de regresar*/
+
+.btn {
+    height: 45px;
+    width: 70px;
+    border: 0;
+    border-radius: 10px;
+    position: relative;
+    bottom: 105px;
+    margin-left: 90%;
+}
+
+.btn:hover {
+    transform: scale(0.95);
+    background: lightcoral;
+    cursor: pointer;
+}
+
+/*Balones*/
+
+.balones {
+    border-radius: 7px;
+    border: 0;
+    background: lightgreen;
+    height: 45px;
+    width: 70px;
+    margin-left: 20%;
+}
+
+.balones:hover {
+    transform: scale(0.95);
+    background: lightcoral;
+    cursor: pointer;
+}
