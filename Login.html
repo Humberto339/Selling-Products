@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Inicia Sesion">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar Sesion</title>
+    <link rel="stylesheet" href="assets/css/Login.css">
+</head>
+<body>
+    <h1 class="titulo">
+        Selling <br>
+        Products
+    </h1>
+    <p>
+        <h3>
+            <a href="Registro.html" class="singn" id="hola">
+                Registro
+            </a>
+        </h3>
+    </p>
+    <p>
+        <button class="cursiva" id="titulo">Regresar</button>
+        <script>
+            (function regresar() {
+                var btn = document.getElementById('titulo');
+                btn.addEventListener("click", function regresar() {
+                    window.location.href = "Index.html";
+                })
+            }())
+        </script>
+    </p>
+    <form autocomplete="on" action="Index.html">
+        <h2>Iniciar Sesion</h2>
+        <input type="text" placeholder="&#128272; Usuario" name="usuario" required/>
+        <input type="password" placeholder="&#128272; Contraseña" name="Contraseña" required="2"/>
+        <input type="submit" value="Ingresar">
+    </form>
+</body>
+</html>
